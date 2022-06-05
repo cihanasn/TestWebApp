@@ -1,0 +1,9 @@
+﻿version: "5.0"
+
+services:
+ web: 
+  container_name: kral_cihan
+  image: cihanasan/testwebapp:latest
+  ports:
+   - "5001:80"
+
