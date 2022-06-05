@@ -20,6 +20,7 @@ namespace TestWebApp.Controllers
 
         public IActionResult Index()
         {
+            string temp = "";
             return View();
         }
 
